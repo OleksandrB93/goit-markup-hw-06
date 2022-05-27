@@ -522,18 +522,19 @@
 					</ul>
 				</div>
 				<div class="form">
-					<form action="">
-						<label class="label" for="">
-							<p class="text">Подпишитесь на рассылку</p>
+					<h2 class="text">Подпишитесь на рассылку</h2>
+					<form class="contact-form" autocomplete="off">
+						<label class="label">
 							<input class="input" type="email" name="email" placeholder="E-mail" />
 						</label>
 						<button class="form-btn" type="submit">
-							<div class="button-content">
+							<span class="content-btn">
 								Подписаться
+
 								<svg class="icon" width="24" height="24">
 									<use href="./img/icon/all-icon/icon.svg#icon-footer-send"></use>
 								</svg>
-							</div>
+							</span>
 						</button>
 					</form>
 				</div>
@@ -547,48 +548,48 @@
 						<use href="./img/icon/all-icon/icon.svg#icon-modal-close"></use>
 					</svg>
 				</button>
-				<form class="form-modal" name="contact-form" autocomplete="off" >
+				<form class="form-modal" name="contact-form" autocomplete="off">
 					<ul class="list">
 						<li class="item">
 							<label for="name" class="label">
 								Имя
-								<div class="form-field">
+								<span class="form-field">
 									<svg class="icon" width="17" height="18">
 										<use href="./img/icon/all-icon/icon.svg#icon-name-modal"></use>
 									</svg>
 									<input class="input" type="text" name="name" id="name" autofocus />
-								</div>
+								</span>
 							</label>
 						</li>
 						<li class="item">
 							<label for="tel" class="label">
 								Телефон
-								<div class="form-field">
+								<span class="form-field">
 									<svg class="icon" width="18" height="18">
 										<use href="./img/icon/all-icon/icon.svg#icon-tel-modal"></use>
 									</svg>
 									<input class="input" type="tel" name="tel" id="tel" />
-								</div>
+								</span>
 							</label>
 						</li>
 						<li class="item">
 							<label for="email" class="label">
 								Почта
-								<div class="form-field">
+								<span class="form-field">
 									<svg class="icon" width="18" height="18">
 										<use href="./img/icon/all-icon/icon.svg#icon-email-modal"></use>
 									</svg>
 									<input class="input" type="email" name="email" id="email" />
-								</div>
+								</span>
 							</label>
 						</li>
 						<li class="item-texterea">
 							<label for="comment" class="label-comment">Комментарий</label>
 							<textarea class="textarea" name="comment" rows="5" placeholder="Введите текст" id="comment"></textarea>
-							<label class="label-policy"">
-								<input class="input-checkbox" type="checkbox" checked/>
+							<label class="label-policy">
+								<input class="input-checkbox" type="checkbox"  />
 								<span class="checkbox"></span>
-								Соглашаюсь с рассылкой и принимаю &#160;
+								<span>Соглашаюсь с рассылкой и принимаю &#160;</span>
 								<a class="link" href="">Условия договора</a>
 							</label>
 						</li>
