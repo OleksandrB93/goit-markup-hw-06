@@ -19,20 +19,21 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/main.min.css">
 	</head>
 	<body>
-		<header class="header">
+			<header class="header">
 			<div class="header-container container">
 				<!--Navigation-->
 				<nav class="nav">
-					<a class="nav__logo" href="index.html">
+					<a class="nav-logo" href="index.html">
 						<span class="nav__web">Web</span>
 						<span class="nav__studio">Studio</span>
 					</a>
 					<!-- nav-list -->
 					<ul class="nav-list list">
 						<li class="nav-list__item">
-							<a class="nav-list__link" href="./index.html">Студия</a>
+							<a class="nav-list__link " href="./index.html">Студия</a>
 						</li>
 						<li class="nav-list__item">
 							<a class="nav-list__link nav-list__link--current" href="./portfolio.html">Портфолио</a>
@@ -43,7 +44,7 @@
 					</ul>
 				</nav>
 				<!--Contacts-->
-				<ul class="contacts-list">
+				<ul class="contacts-list list">
 					<li class="contacts-list__item">
 						<a class="contacts-list__link" href="mailto:info@devstudio.com">
 							<svg class="contacts-list__icon icon" width="16" height="12">
@@ -69,8 +70,8 @@
 			<section class="section gallery">
 				<h1 class="portfolio-title visually-hidden">Портфолио</h1>
 				<div class="container">
-					<!-- list btn--filter -->
-					<ul class="btn-list">
+					<!-- btn-filter -->
+					<ul class="btn-list list">
 						<li class="btn-list__item">
 							<button class="btn-filter" type="button">Всё</button>
 						</li>
@@ -88,7 +89,7 @@
 						</li>
 					</ul>
 					<!--Portfolio-->
-					<ul class="portfolio-list">
+					<ul class="portfolio-list list">
 						<li class="portfolio_list__item">
 							<a class="portfolio-list__link" href="">
 								<div class="photo-thumb">
@@ -247,10 +248,10 @@
 			</section>
 		</main>
 		<!-- Footer -->
-		<footer class="footer">
+			<footer class="footer">
 			<div class="footer-container container">
 				<div class="footer-group">
-					<a class="logo" href="./index.html">
+					<a class="nav-logo" href="./index.html">
 						<span class="nav__web">Web</span>
 						<span class="nav__studio nav__studio--invers">Studio</span>
 					</a>
@@ -319,7 +320,7 @@
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
-				<button data-modal-close class="close-modal" type="button" width="30" height="30">
+				<button class="close-modal" type="button">
 					<svg class="btn-icon" width="18" height="18">
 						<use href="./img/icon/all-icon/icon.svg#icon-modal-closed"></use>
 					</svg>

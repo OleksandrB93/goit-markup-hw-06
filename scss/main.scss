@@ -1,0 +1,25 @@
+// utils
+@import './utils/vars';
+@import './utils/visually-hidden';
+
+
+//base styles
+
+@import './base/common';
+@import './base/container';
+@import './base/reset';
+
+//components
+
+@import './components/btn';
+@import './components/btn-filter';
+@import './components/social';
+@import './components/logo';
+@import './components/modal/modal';
+@import './components/modal/backdrop';
+@import './components/modal/close-btn-modal';
+@import './components/modal/form';
+@import './components/modal/checkbox';
+@import './components/modal/policy';
+
+//layouts
